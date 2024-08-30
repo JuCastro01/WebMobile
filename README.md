@@ -10,9 +10,9 @@ Para executar os codigos com HTML e CSS é necessário ter instalado um navegado
 
 ## 🛠️ Construído com:
 
-[https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white]
-
-
+<div align="center">
+<a href=" " target="_blank"><img src="https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white" target="_blank"></a>
+</div>
 
 ## 🧑‍💻 Autores
 
