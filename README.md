@@ -23,7 +23,7 @@ Para executar os codigos com HTML e CSS é necessário ter instalado um navegado
 
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/JuCastro01"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/JuCastro01" width="100px;" alt=""/><br /><sub><b>JuCastro01</b></sub></a><br /><a href="https://rocketseat.com.br/"</a></td>
+    <td align="center"><a href="https://github.com/JuCastro01"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/JuCastro01" width="100px;" alt=""/><br /><sub><b>JuCastro01</b></sub></a><br /><a href="https://github.com/JuCastro01"</a></td>
     
   </tr>
 </table>
