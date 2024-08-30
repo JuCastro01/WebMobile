@@ -17,12 +17,17 @@ Para executar os codigos com HTML e CSS é necessário ter instalado um navegado
 
 ## 🧑‍💻 Autores
 
-Mencione todos aqueles que ajudaram a levantar o projeto desde o seu início
+-Júlia Carvalho de Souza Castro RA:10374038
 
-* **Um desenvolvedor** - *Trabalho Inicial* - [umdesenvolvedor](https://github.com/linkParaPerfil)
-* **Fulano De Tal** - *Documentação* - [fulanodetal](https://github.com/linkParaPerfil)
+-Asaph Sousa Bastos RA:10223702
 
-Você também pode ver a lista de todos os [colaboradores](https://github.com/usuario/projeto/colaboradores) que participaram deste projeto.
+<table>
+  <tr>
+    <b>JuCastro01</b>
+    <td align="center"><a href="https://github.com/JuCastro01"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/JuCastro01" width="100px;" alt=""/><br /><sub><b>Cleiton Souza</b></sub></a><br /><a href="https://rocketseat.com.br/" title="Rocketseat">👨‍🚀</a></td>
+    
+  </tr>
+</table>
 
 ## 📄 Licença
 
@@ -52,3 +57,6 @@ SOFTWARE.
 
 ## 👨‍🏫Professores:
 
+-Prof. Joaquim Pessoa Filho
+
+-Prof. Pedro Henrique Cacique Braga
