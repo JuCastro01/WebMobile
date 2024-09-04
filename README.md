@@ -3,7 +3,7 @@
 Nesse projeto buscamos agrupar varias POCs (provas de conceito) a respeito do desenvolvimento web mobile.
 
 
-### 🔧 Execução:
+## 🔧 Execução:
 
 Para executar os codigos com HTML e CSS é necessário ter instalado um navegador como chrome, firefox ou opera para abrir os arquivos
 
