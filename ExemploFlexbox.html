@@ -2,8 +2,9 @@
 <html>
 <head>
 <style>
-div{
+div>div{
     background-color: #6d1c8d;
+    border-style: solid;
     width: 100px;
     margin: 10px;
     text-align: center;
@@ -30,6 +31,7 @@ h1{
 .wrap{
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
 }
 .nowrap{
     display: flex;
@@ -38,6 +40,39 @@ h1{
 .wrapreverse{
     display: flex;
     flex-wrap: wrap-reverse;
+}
+
+.align-items{
+    height: 200px;
+    border-style: solid;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-around;
+}
+.align-content-start{
+    height: 200px;;
+    border-style: solid;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: start;
+    justify-content: space-around;
+}
+.align-content-center{
+    height: 200px;;
+    border-style: solid;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+}
+.align-content-end{
+    height: 200px;;
+    border-style: solid;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: end;
+    justify-content: space-around;
 }
 
   
@@ -93,6 +128,47 @@ h1{
     </div>
     <h1>Wrap-Reverse</h1>
     <div class="wrapreverse">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>  
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>  
+    </div>
+
+
+<h1>Align-Items</h1>
+    <h2>Stretch</h2>
+    <div class="align-items">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>  
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>  
+    </div>
+
+<h1>Align-Content</h1>
+    <h2>Start</h2>
+    <div class="align-content-start">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>  
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>  
+    </div>
+    <h2>Center</h2>
+    <div class="align-content-center">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>  
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>  
+    </div>
+    <h2>End</h2>
+    <div class="align-content-end">
         <div>1</div>
         <div>2</div>
         <div>3</div>  
