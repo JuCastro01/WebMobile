@@ -2,22 +2,45 @@
 <html>
 <head>
 <style>
-.flex-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #6d1c8d;
+div{
+    background-color: #6d1c8d;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
 }
 
-.flex-container > div {
-  background-color: #f1f1f1;
-  margin: 10px;
-  padding: 20px;
-  display: flex;
-  align-items: center;
-  font-size: 30px;
-  justify-content: center;
+h1{
+    display: flex;
+    justify-content: center;
 }
+.colreverse{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.rowreverse{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+.nowrap{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.wrapreverse{
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+
+  
 </style>
 </head>
 <body>
@@ -29,5 +52,58 @@
   <div>2</div>
   <div>3</div>
 </div>
+<h1>Flex Direction</h1>
+    <h1>Column</h1>
+    <div class="column">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>  
+    </div>
+    <h1>Column Reverse</h1>
+    <div class="colreverse">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>  
+    </div>
+    <h1>Row</h1>
+    <div class="row">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>  
+    </div>
+    <h1>Row-Reverse</h1>
+    <div class="rowreverse">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>  
+    </div>
+    <h1>Flex-Wrap</h1>
+    <h1>Wrap</h1>
+    <div class="wrap">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>  
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>  
+    </div>
+    <h1>Nowrap</h1>
+    <div class="nowrap">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>  
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>  
+    </div>
+    <h1>Wrap-Reverse</h1>
+    <div class="wrapreverse">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>  
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>  
+    </div>
 </body>
 </html>
