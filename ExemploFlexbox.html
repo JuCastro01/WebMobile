@@ -16,28 +16,46 @@ h1{
     display: flex;
     justify-content: center;
 }
+.column{
+    height: 300px;;
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+}
 .colreverse{
+    height: 300px;;
+    border-style: solid;
     display: flex;
     flex-direction: column-reverse;
 }
 .row{
+    height: 100px;;
+    border-style: solid;
     display: flex;
     flex-direction: row;
 }
 .rowreverse{
+    height: 100px;;
+    border-style: solid;
     display: flex;
     flex-direction: row-reverse;
 }
 .wrap{
+    height: 150px;;
+    border-style: solid;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
 }
 .nowrap{
+    height: 150px;;
+    border-style: solid;
     display: flex;
     flex-wrap: nowrap;
 }
 .wrapreverse{
+    height: 150px;;
+    border-style: solid;
     display: flex;
     flex-wrap: wrap-reverse;
 }
@@ -83,32 +101,32 @@ h1{
 <h1>Exemplo de flexbox:</h1>
 
 <h1>Flex Direction</h1>
-    <h1>Column</h1>
+    <h2>Column</h2>
     <div class="column">
         <div>1</div>
         <div>2</div>
         <div>3</div>  
     </div>
-    <h1>Column Reverse</h1>
+    <h2>Column Reverse</h2>
     <div class="colreverse">
         <div>1</div>
         <div>2</div>
         <div>3</div>  
     </div>
-    <h1>Row</h1>
+    <h2>Row</h2>
     <div class="row">
         <div>1</div>
         <div>2</div>
         <div>3</div>  
     </div>
-    <h1>Row-Reverse</h1>
+    <h2>Row-Reverse</h2>
     <div class="rowreverse">
         <div>1</div>
         <div>2</div>
         <div>3</div>  
     </div>
     <h1>Flex-Wrap</h1>
-    <h1>Wrap</h1>
+    <h2>Wrap</h2>
     <div class="wrap">
         <div>1</div>
         <div>2</div>
@@ -117,7 +135,7 @@ h1{
         <div>5</div>
         <div>6</div>  
     </div>
-    <h1>Nowrap</h1>
+    <h2>Nowrap</h2>
     <div class="nowrap">
         <div>1</div>
         <div>2</div>
@@ -126,7 +144,7 @@ h1{
         <div>5</div>
         <div>6</div>  
     </div>
-    <h1>Wrap-Reverse</h1>
+    <h2>Wrap-Reverse</h2>
     <div class="wrapreverse">
         <div>1</div>
         <div>2</div>
@@ -149,7 +167,7 @@ h1{
     </div>
 
 <h1>Align-Content</h1>
-    <h2>Start</h2>
+    <h2>Flex-Start</h2>
     <div class="align-content-start">
         <div>1</div>
         <div>2</div>
@@ -167,7 +185,7 @@ h1{
         <div>5</div>
         <div>6</div>  
     </div>
-    <h2>End</h2>
+    <h2>Flex-End</h2>
     <div class="align-content-end">
         <div>1</div>
         <div>2</div>
