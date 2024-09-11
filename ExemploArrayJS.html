@@ -36,6 +36,16 @@
         <button onclick="filtro()">verify</button>
         <p id="filter"></p>
     </div> 
+    <div>
+        <h2>Array Sort</h2>
+        <p id="before"></p>
+        <p id="sort"></p>
+    </div>
+    <div>
+        <h2>Array Reduce</h2>
+        <p id="nota_alunos"></p>
+        <p id="nota"></p>
+    </div>
     <script>
         // map
         const pessoas = [
@@ -58,6 +68,31 @@
         function filtro() {
             document.getElementById("filter").innerHTML = idades.filter(verify);
         }
+        
+        // sort
+        const alunos = [" Kevin Yao", " Julia Castro", " Asaph Bastos"];
+        document.getElementById("before").innerHTML = "Lista antes da função .sort(): " + (alunos);
+        alunos.sort();
+        document.getElementById("sort").innerHTML = "Lista após a função .sort(): " + (alunos);
+
+        // reduce
+        const notas_alunos = [
+            {aluno: "Kevin Yao", nota: 7},
+            {aluno: "Julia Castro", nota: 8},
+            {aluno: "Asaph Bastos", nota: 8.5}
+        ];
+        const initialValue = 0;
+        const sumWithInitial = notas_alunos.map(item => item.nota).reduce(
+            (accumulator, currentValue) => accumulator + currentValue,
+            initialValue
+        );
+        document.getElementById("nota_alunos").innerHTML = notas_alunos.map(notas);
+        function notas(item) {
+          return [item.aluno,item.nota].join(" ");
+        }
+        document.getElementById("nota").innerHTML = "nota após o .reduce(): " + (sumWithInitial);
+        //spread
+        
         </script>
     
     </body>
