@@ -50,7 +50,7 @@
         }
 	/*Media query disposição dos dispositivos*/
     @media (orientation: landscape) {
-  .disposicao{
+  .landscape{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -58,7 +58,7 @@
 }
 
 @media (orientation: portrait) {
-  .disposicao{
+  .portrait{
     flex-direction: column;
     justify-content: center;
 
@@ -71,10 +71,13 @@
         <h1>Exemplo de print</h1>
         <p>Este é um exemplo de print.</p>
     </div>]
-    <div class="disposicao">
-        <div>Box 1</div>
-        <div>Box 2</div>
-        <div>Box 3</div>
+    <div class="landscape">
+        <h1> Exemplo de Disposição dos dispositivos </h1>
+       	<p> Este é um exemplo orientation </p>
+    </div>
+    <div class="portrait">
+        <h1> Exemplo de Disposição dos dispositivos </h1>
+      	<p> Este é um exemplo portrait </p>
     </div>
 </body>
 </html> 
