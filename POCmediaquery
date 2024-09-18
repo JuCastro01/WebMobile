@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exemplo de Impressão</title>
+    <title>POC 3 Media Query</title>
     <style>
-        /* Estilos padrão para a visualização na tela */
+  
         body {
             font-family: Arial, sans-serif;
             color: #333;
@@ -25,7 +25,7 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
 
-        /* Media query para impressão */
+        /* Media query print */
         @media print {
             body {
                 color: #000;
@@ -44,12 +44,11 @@
             h1 {
                 color: #000;
             }
-
-            /* Esconder elementos que não devem aparecer na impressão */
             .no-print {
                 display: none;
             }
         }
+	/*Media query disposição dos dispositivos*/
     @media (orientation: landscape) {
   .disposicao{
     display: flex;
@@ -78,4 +77,4 @@
         <div>Box 3</div>
     </div>
 </body>
-</html>
+</html> 
