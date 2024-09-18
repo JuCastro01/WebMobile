@@ -24,6 +24,21 @@
             background-color: #fff;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
+	.portrait{
+		max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	}
+	.landscape{
+		max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	}
+
 
         /* Media query print */
         @media print {
@@ -54,14 +69,29 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+	box-shadow: none;
+                border: 1px solid #ddd;
+                padding: 10px;
+                max-width: 100%;
   }
 }
 
 @media (orientation: portrait) {
+	body {
+                color: #000;
+                background-color: #fff;
+                margin: 0;
+                padding: 0;
+            }
   .portrait{
     flex-direction: column;
     justify-content: center;
-
+	box-shadow: none;
+                border: 1px solid #ddd;
+                padding: 10px;
+                max-width: 100%;
+	
+	
   }
 }
     </style>
