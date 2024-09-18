@@ -5,109 +5,78 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>POC 3 Media Query</title>
     <style>
-  
         body {
             font-family: Arial, sans-serif;
             color: #333;
             background-color: #f8f8f8;
-            margin: 20px;
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
         }
         
         h1 {
             color: #007bff;
         }
 
-        .content {
+        .container {
             max-width: 800px;
-            margin: auto;
+            width: 100%;
+            margin: 10px;
             padding: 20px;
             background-color: #fff;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            box-sizing: border-box;
         }
-	.portrait{
-		max-width: 800px;
-            margin: auto;
-            padding: 20px;
-            background-color: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-	}
-	.landscape{
-		max-width: 800px;
-            margin: auto;
-            padding: 20px;
-            background-color: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-	}
-
 
         /* Media query print */
         @media print {
             body {
+                display: flex;
+                flex-direction: column;
                 color: #000;
                 background-color: #fff;
-                margin: 0;
-                padding: 0;
             }
             
-            .content {
+            .container {
                 box-shadow: none;
                 border: 1px solid #ddd;
                 padding: 10px;
-                max-width: 100%;
             }
+        }    
 
-            h1 {
-                color: #000;
-            }
-            .no-print {
-                display: none;
-            }
+        /* Media query disposição dos dispositivos */
+        @media (orientation: landscape) {
+            body{
+            display: flex;
+            flex-direction: column;
         }
-	/*Media query disposição dos dispositivos*/
-    @media (orientation: landscape) {
-  .landscape{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-	box-shadow: none;
-                border: 1px solid #ddd;
-                padding: 10px;
-                max-width: 100%;
-  }
-}
+        }  
 
-@media (orientation: portrait) {
-	body {
-                color: #000;
-                background-color: #fff;
-                margin: 0;
-                padding: 0;
-            }
-  .portrait{
-    flex-direction: column;
-    justify-content: center;
-	box-shadow: none;
-                border: 1px solid #ddd;
-                padding: 10px;
-                max-width: 100%;
-	
-	
-  }
-}
+        @media (orientation: portrait) {
+            body{
+            display: flex;
+            flex-direction: column;
+        }
+            
+        }  
     </style>
 </head>
 <body>
-    <div class="content">
+    <div class="container content">
         <h1>Exemplo de print</h1>
         <p>Este é um exemplo de print.</p>
-    </div>]
-    <div class="landscape">
-        <h1> Exemplo de Disposição dos dispositivos </h1>
-       	<p> Este é um exemplo orientation </p>
     </div>
-    <div class="portrait">
-        <h1> Exemplo de Disposição dos dispositivos </h1>
-      	<p> Este é um exemplo portrait </p>
+    <div class="container landscape">
+        <h1>Exemplo de Disposição dos dispositivos</h1>
+        <p>Este é um exemplo orientation</p>
+    </div>
+    <div class="container portrait">
+        <h1>Exemplo de Disposição dos dispositivos</h1>
+        <p>Este é um exemplo portrait</p>
     </div>
 </body>
-</html> 
+</html>
