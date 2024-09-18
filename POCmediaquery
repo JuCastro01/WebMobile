@@ -50,12 +50,32 @@
                 display: none;
             }
         }
+    @media (orientation: landscape) {
+  .disposicao{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+@media (orientation: portrait) {
+  .disposicao{
+    flex-direction: column;
+    justify-content: center;
+
+  }
+}
     </style>
 </head>
 <body>
     <div class="content">
         <h1>Exemplo de print</h1>
         <p>Este é um exemplo de print.</p>
+    </div>]
+    <div class="disposicao">
+        <div>Box 1</div>
+        <div>Box 2</div>
+        <div>Box 3</div>
     </div>
 </body>
 </html>
