@@ -2,7 +2,7 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <title>POC 3 Media Query</title>
     <style>
         body {
@@ -53,16 +53,42 @@
             body{
             display: flex;
             flex-direction: column;
-        }
+            }
         }  
 
         @media (orientation: portrait) {
             body{
             display: flex;
             flex-direction: column;
+            }
         }
-            
-        }  
+    
+        /* Media query largura de dispositivos diferentes*/
+        #div3 { display: none; }
+        @media (min-width: 1024px) { 
+            /* desktop */
+            * {
+                font-size: 25px;;
+            }
+            #div3 { display: inline-block;}
+        }
+        #div2 { display: none; }
+        @media (min-width: 768px) and (max-width: 1024px){
+            /* tablet */
+            * {
+                font-size: 20px;
+            }
+            #div2 { display: inline-block;}
+        }
+        #div1 { display: none; }
+        @media(max-width: 768px) { 
+            /* mobile */
+            * {
+                font-size: 16px;
+            }
+            #div1 { display: inline-block;}
+        }
+        
     </style>
 </head>
 <body>
@@ -78,5 +104,17 @@
         <h1>Exemplo de Disposição dos dispositivos</h1>
         <p>Este é um exemplo portrait</p>
     </div>
+
+    <!-- Divs para diferenciar as larguras no momento -->
+    <div id="div1">
+        <h1>Mobile size</h1>
+    </div>
+    <div id="div2">
+        <h1>Tablet size</h1>
+    </div>
+    <div id="div3">
+        <h1>Desktop size</h1>
+    </div>
+
 </body>
 </html>
