@@ -106,14 +106,17 @@
     </div>
 
     <!-- Divs para diferenciar as larguras no momento -->
-    <div id="div1">
+    <div id="div1" class="container">
         <h1>Mobile size</h1>
+        <p>Esta resolução é um exemplo de largura para mobile</p>
     </div>
-    <div id="div2">
+    <div id="div2" class="container">
         <h1>Tablet size</h1>
+        <p>Esta resolução é um exemplo de largura para tablet</p>
     </div>
-    <div id="div3">
+    <div id="div3" class="container">
         <h1>Desktop size</h1>
+        <p>Esta resolução é um exemplo de largura para desktop</p>
     </div>
 
 </body>
