@@ -1,11 +1,20 @@
-# Trabalho de WebMobile (SuperHeroe)
+# POCSuperhero
 
-Nesse projeto criamos um arquivo em next.js com base em uma API onde pegamos informações de heróis para a página.
 
+## Definição:
+Este código é um componente React que consome uma API de super-heróis para buscar e exibir informações, como nomes, imagens e estatísticas (inteligência e força) de heróis específicos. Ele realiza requisições assíncronas para obter os dados e os exibe em cartões estilizados com barras visuais que representam as estatísticas, utilizando uma combinação de estilos globais e locais para formatar a interface de forma dinâmica e organizada.
 
 ## 🔧 Execução:
 
-Para executar os codigos com HTML e CSS é necessário ter instalado um navegador como chrome, firefox ou opera para abrir os arquivos
+Para executar a aplicação é necessário ter instalado um navegador como chrome, firefox ou opera para vizualizar a pagina e ter instalado o next.js e o node.js(v20.18).
+Basta fazer download, entrar no diretorio pocreact e executar o comando a seguir:
+
+```
+npm run dev
+
+```
+
+![image](https://github.com/user-attachments/assets/42447fc5-09d8-4492-b620-249a8f2b8b4a)
 
 
 ## 🛠️ Construído com:
@@ -13,7 +22,9 @@ Para executar os codigos com HTML e CSS é necessário ter instalado um navegado
 <div align="center">
 <a href=" " target="_blank"><img src="https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white" target="_blank"></a>
   <a href=" " target="_blank"><img src="https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white" target="_blank"></a>
-  
+  <a href=" " target="_blank"><img src="https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white" target="_blank"></a>
+  <a href=" " target="_blank"><img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white" target="_blank"></a>
+  <a href=" " target="_blank"><img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" target="_blank"></a>
 </div>
 
 ## 🧑‍💻 Autores
